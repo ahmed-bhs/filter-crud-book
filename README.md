@@ -1,4 +1,4 @@
-Symfony Standard Edition
+Filter-crud-book
 ========================
 
 Welcome to the Symfony Standard Edition - a fully-functional Symfony
