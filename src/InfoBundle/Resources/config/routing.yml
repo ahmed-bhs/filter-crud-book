@@ -1,0 +1,11 @@
+info_admin_info:
+    resource: "@InfoBundle/Resources/config/routing/info.yml"
+    prefix:   /admin/info
+
+info_homepage:
+    path:     /
+    defaults: { _controller: InfoBundle:Default:index }
+info_rech:
+    path:     /rech
+    defaults: { _controller: InfoBundle:Default:rech }
+

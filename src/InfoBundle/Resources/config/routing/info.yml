@@ -1,0 +1,42 @@
+admin_info:
+    path:  /
+    defaults: { _controller: "InfoBundle:Info:index" }
+
+admin_info_show:
+    path:  /{id}/show
+    defaults: { _controller: "InfoBundle:Info:show" }
+
+admin_info_new:
+    path:  /new
+    defaults: { _controller: "InfoBundle:Info:new" }
+
+admin_info_create:
+    path:  /create
+    defaults: { _controller: "InfoBundle:Info:create" }
+    requirements: { _method: post }
+
+admin_info_edit:
+    path:  /{id}/edit
+    defaults: { _controller: "InfoBundle:Info:edit" }
+
+admin_info_update:
+    path:  /{id}/update
+    defaults: { _controller: "InfoBundle:Info:update" }
+    requirements: { _method: post|put }
+
+admin_info_delete:
+    path:  /{id}/delete
+    defaults: { _controller: "InfoBundle:Info:delete" }
+    requirements: { _method: post|delete }
+    
+admin_info_by_id_delete:
+    path:  /delete/{id}
+    defaults: { _controller: "InfoBundle:Info:deleteById" }
+    requirements: { _method: get }
+    
+
+admin_info_bulk_action:
+    path:  /bulk-action
+    defaults: { _controller: "InfoBundle:Info:bulk" }
+    requirements: { _method: post }
+    

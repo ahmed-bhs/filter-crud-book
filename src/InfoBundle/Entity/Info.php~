@@ -1,0 +1,53 @@
+<?php
+
+namespace InfoBundle\Entity;
+
+/**
+ * Info
+ */
+class Info
+{
+    /**
+     * @var int
+     */
+    private $id;
+
+    /**
+     * @var string
+     * @name
+     */
+    private $iNV;
+
+    /**
+     * @var string
+     */
+    private $titre;
+
+    /**
+     * @var string
+     */
+    private $auteur;
+
+    /**
+     * @var string
+     */
+    private $cote;
+
+    /**
+     * @var int
+     */
+    private $expl;
+
+    /**
+     * @var int
+     */
+    private $code_bare;
+
+    /**
+     * @var string
+     */
+    private $exposan;
+
+
+}
+
